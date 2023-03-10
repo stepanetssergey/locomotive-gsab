@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: box-border;
+}
+
+html.has-scroll-smooth {
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.quotes {
+  display: flex;
+}
+
+.quotes-container {
+  width: 100vw;
+  flex-shrink: 0;
+}
